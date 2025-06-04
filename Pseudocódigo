@@ -1,0 +1,33 @@
+Pseudocódigo: 
+
+Início
+crie campo “insira equação”
+	Início
+		leia num1
+		leia num2
+		soma - num1 +num2
+		Escreva “A soma é: “, soma
+	fim
+
+	início
+		leia num1
+		leia num2
+		subtração - num1-num2
+		Escreva “A subtração é: “, subtração
+	fim
+
+	início
+		leia num1
+		leia num2
+		multiplicação - num1*num2
+		Escreva “A multiplicação é: “, multiplicação
+	fim
+
+	início
+		leia num1
+		leia num2
+		divisão - num1/num2
+		Escreva “A divisão é: “, divisão
+	fim
+Fim
+
