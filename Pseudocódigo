@@ -1,33 +1,29 @@
-Pseudocódigo: 
-
 Início
-crie campo “insira equação”
-	Início
-		leia num1
-		leia num2
-		soma - num1 +num2
-		Escreva “A soma é: “, soma
-	fim
+   Leia num1
+   Leia num2
 
-	início
-		leia num1
-		leia num2
-		subtração - num1-num2
-		Escreva “A subtração é: “, subtração
-	fim
+   Escreva "Escolha a operação:"
+   Escreva "1 - Soma"
+   Escreva "2 - Subtração"
+   Escreva "3 - Multiplicação"
+   Escreva "4 - Divisão"
+   Leia operacao
 
-	início
-		leia num1
-		leia num2
-		multiplicação - num1*num2
-		Escreva “A multiplicação é: “, multiplicação
-	fim
-
-	início
-		leia num1
-		leia num2
-		divisão - num1/num2
-		Escreva “A divisão é: “, divisão
-	fim
+   Se operacao = 1 então
+      resultado ← num1 + num2
+      Escreva "Resultado: ", resultado
+   Senão se operacao = 2 então
+      resultado ← num1 - num2
+      Escreva "Resultado: ", resultado
+   Senão se operacao = 3 então
+      resultado ← num1 * num2
+      Escreva "Resultado: ", resultado
+   Senão se operacao = 4 então
+      Se num2 ≠ 0 então
+         resultado ← num1 / num2
+         Escreva "Resultado: ", resultado
+      Senão
+         Escreva "Erro: divisão por zero não é permitida."
+   Senão
+      Escreva "Operação inválida."
 Fim
-
